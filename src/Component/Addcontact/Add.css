@@ -1,0 +1,67 @@
+.add-container{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.add-student-form {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    padding:20px;
+    align-items:center;
+    justify-content:center;
+    max-width: 550px;
+    background: white;
+    border-radius: 5px;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  .add-student-form input{
+    width: 450px;
+  }
+  .button-submit{
+    background: rgb(3,81,149)!important;
+    color: white;
+  }
+  .heading {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  
+  .button-submit {
+    width: fit-content;
+  }
+  
+  input {
+    background: white;
+  }
+  .button-container{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .add-container{
+      width: 100%;
+    }
+    .add-student-form {
+     
+      padding:20px;
+      max-width:100%;
+    
+    }
+    .add-student-form input{
+      width:100% !important;
+    }
+    .css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+      width: 100% !important;
+    }
+    .add-container {
+      margin-top: 30px;
+    }
+  }

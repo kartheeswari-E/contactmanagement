@@ -1,0 +1,74 @@
+.view-modal-container{
+   margin-top: 100px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 30px;
+   font-family: 'Lato', sans-serif;
+}
+a
+{
+text-decoration: none;
+}
+
+
+.card
+{
+    position: relative;
+    width: 300px;
+    height:400px;
+margin: 30px;
+    background-color: white;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.7s ease-in-out;
+}
+
+.photo
+{
+    position: relative;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    margin: 0 auto;
+    background-image: url("https://filmshotfreezer.files.wordpress.com/2011/07/untitled-1.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    top:15px;
+    box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
+
+}
+
+.card ul
+{
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+    margin-top:30px;
+    margin-bottom:30px;
+    font-size: 20px;
+   transition: all 0.7s ease-in-out;
+    
+}
+
+.address{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.close{
+  margin-left: 115px;
+    border: 1px solid rgb(3,81,149);
+   color: white;
+     background: rgb(3,81,149);
+    padding:5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+   font-size:18px;
+}
+
+@media only screen and (max-width: 768px) {
+.view-modal-container {
+    margin-top: 20px;
+}
+}
